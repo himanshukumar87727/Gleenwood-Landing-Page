@@ -86,7 +86,7 @@ const App = () => {
       
       {/* --- NAVBAR --- */}
       <nav className="fixed top-0 w-full z-[60] bg-white/80 backdrop-blur-md shadow-sm px-4 md:px-12 py-3 flex justify-between items-center">
-        <img src="src/assets/Glenwood name.webp" alt="Glenwood" className="h-10 md:h-14" />
+        <img src="swiper/Glenwood name.webp" alt="Glenwood" className="h-10 md:h-14" />
         <div className="flex items-center gap-2 md:gap-5">
           <button onClick={() => setIsFormOpen(true)} className="hidden md:flex items-center gap-2 text-[#1a4332] font-bold text-xs uppercase tracking-widest hover:text-green-600 transition group">
             <FileText size={16} className="group-hover:animate-bounce" /> Brochure
@@ -105,7 +105,7 @@ const App = () => {
           <motion.img 
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            src="src/assets/Glenwood name.webp" 
+            src="swiper/Glenwood name.webp" 
             className="w-56 md:w-80 h-auto object-contain mb-3" 
             alt="Glenwood Branding"
           />
@@ -117,12 +117,12 @@ const App = () => {
       {/* --- HERO / SWIPER --- */}
       <section className="relative h-[60vh] md:h-[75vh] overflow-hidden">
         <Swiper modules={[Autoplay, Pagination, EffectFade]} effect="fade" autoplay={{ delay: 1500 }} pagination={{ clickable: true }} className="h-full w-full">
-          <SwiperSlide><img src="src/assets/EntryGateHCBS.webp" className="w-full h-full object-cover" alt="Main Gate" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/BadmintonCourtViewHCBS.webp" className="w-full h-full object-cover" alt="Badminton" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/ClubHouseHCBS.webp" className="w-full h-full object-cover" alt="Club House" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/LandscapeViewHCBS.webp" className="w-full h-full object-cover" alt="Landscape" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/PavilionViewHCBS.webp" className="w-full h-full object-cover" alt="Pavilion View" /></SwiperSlide>
-          <SwiperSlide><img src="src/assets/PoolCamHCBS.webp" className="w-full h-full object-cover" alt="Pool Camera" /></SwiperSlide>
+          <SwiperSlide><img src="swiper/EntryGateHCBS.webp" className="w-full h-full object-cover" alt="Main Gate" /></SwiperSlide>
+          <SwiperSlide><img src="swiper/BadmintonCourtViewHCBS.webp" className="w-full h-full object-cover" alt="Badminton" /></SwiperSlide>
+          <SwiperSlide><img src="swiper/ClubHouseHCBS.webp" className="w-full h-full object-cover" alt="Club House" /></SwiperSlide>
+          <SwiperSlide><img src="swiper/LandscapeViewHCBS.webp" className="w-full h-full object-cover" alt="Landscape" /></SwiperSlide>
+          <SwiperSlide><img src="swiper/PavilionViewHCBS.webp" className="w-full h-full object-cover" alt="Pavilion View" /></SwiperSlide>
+          <SwiperSlide><img src="swiper/PoolCamHCBS.webp" className="w-full h-full object-cover" alt="Pool Camera" /></SwiperSlide>
         </Swiper>
         <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col justify-end items-center pb-12 px-6 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
@@ -197,7 +197,7 @@ const App = () => {
       <section className="py-24 bg-[#1a4332] text-white px-8">
         <div className="max-w-8xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/10 aspect-video">
-            <img src="src/assets/Screenshot 2026-05-07 125546.png" className="w-full h-full object-cover" alt="Map" />
+            <img src="swiper/Screenshot 2026-05-07 125546.png" className="w-full h-full object-cover" alt="Map" />
           </div>
           <div className="space-y-4">
             <h2 className="text-4xl font-bold mb-8 italic">Strategic Connectivity</h2>
@@ -277,7 +277,7 @@ const App = () => {
           <div className="bg-[#f8fafc] p-16 rounded-[4rem] border border-slate-100 shadow-[0_32px_64px_-16px_rgba(0,0,0,0.05)] relative z-10 overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-br from-white to-transparent opacity-50" />
             <img 
-              src="src/assets/metropolitan.avif" 
+              src="swiper/metropolitan.avif" 
               alt="Metropolitan Infra Realty" 
               className="w-full h-auto object-contain relative z-10 transition-transform duration-700 group-hover:scale-105"
             />
