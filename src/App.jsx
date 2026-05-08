@@ -389,7 +389,7 @@ const App = () => {
         <div className="absolute top-0 right-0 w-20 h-20 bg-green-100 rounded-bl-full opacity-50"></div>
         
         <img 
-          src="src/assets/Glenwood name.webp" 
+          src="swiper/Glenwood name.webp" 
           className="w-48 md:w-56 mb-4 relative z-10" 
           alt="Glenwood Logo" 
         />
